@@ -207,6 +207,8 @@
 		<extension>.nca .NCA .nro .NRO .nso .NSO .nsp .NSP .xci .XCI</extension>
 		<command label="Yuzu (Standalone)">%EMULATOR_YUZU% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Yuzu EA (Standalone)">%EMULATOR_YUZU-EA% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
+		<command label="Yuzu Andromeda (Standalone)">%EMULATOR_YUZU-ANDROMEDA% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.category.LEANBACK_LAUNCHER %EXTRA_AutoStartFile%=%ROMSAF%</command>
+
 		<command label="Citron (Standalone)">%EMULATOR_CITRON% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Eden (Standalone)">%EMULATOR_EDEN% %ACTION%=android.nfc.action.TECH_DISCOVERED %DATA%=%ROMPROVIDER%</command>
 		<command label="Nyushu (Standalone)">%EMULATOR_NYUSHU% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
