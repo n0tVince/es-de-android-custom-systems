@@ -128,6 +128,13 @@
 			<entry>org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 		</rule>
 	</emulator>
+	<emulator name="YUZU-ANDROMEDA">
+    		<!-- Nintendo Switch emulator Yuzu (custom Andromeda build) -->
+    		<rule type="androidpackage">
+        		<entry>com.andromeda.androbench2/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+    		</rule>
+	</emulator>
+
 	<emulator name="ZIUNX">
 		<!-- Nintendo Switch emulator Ziunx -->
 		<rule type="androidpackage">
